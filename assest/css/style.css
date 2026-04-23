@@ -15,6 +15,7 @@
     position: sticky;
     top: 0;
     z-index: 100;
+    background-color: rgb(255, 255, 255, 0.97);
 }
 
 .navbar nav {
@@ -29,10 +30,12 @@
     text-decoration: none;
     color: black;
 }
+
 .navbar .div1 {
     display: flex;
     gap: 30px;
 }
+
 .navbar nav .g {
     font-size: 20px;
     font-weight: 900;
@@ -46,6 +49,7 @@
     justify-content: center;
     gap: 25px;
 }
+
 .navbar .div2 .sign {
     width: 104px;
     height: 48px;
@@ -55,4 +59,21 @@
     background-color: black;
     color: snow;
     border-radius: 8px;
+}
+
+/* =======main-1========= */
+/* ====================== */
+.main-1 {
+    width: 1380px;
+    height: 581px;
+    border: 1px solid red;
+    margin: auto;
+}
+
+.main-1 {
+    background-image: url(../img/kema.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 24px;
 }
