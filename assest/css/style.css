@@ -100,3 +100,27 @@
     font-size: 100px;
     margin-bottom: 15px;
 }
+
+/* ==========main-2========= */
+/* ========================= */
+.main-2 {
+    width: 1232px;
+    height: 280px;
+    border: 1px solid red;
+    margin: auto;
+    background-color: snow;
+    padding: 20px;
+
+}
+
+.main-2 fieldset {
+    width: 200px;
+    height: 40px;
+}
+
+.main-2 .box {
+    width: 1184px;
+    height: 152px;
+    border: 1px solid black;
+    margin: auto;
+}
