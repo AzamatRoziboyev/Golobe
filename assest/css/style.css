@@ -108,7 +108,7 @@
     width: 1232px;
     height: 280px;
     border-radius: 20px;
-    box-shadow: 0 2px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 0px 1px rgba(0, 0, 0, 0.1);
     margin: auto;
     background-color: snow;
     padding: 20px;
@@ -123,12 +123,9 @@
     padding-left: 10px;
 }
 
-.main-2 .box .i .x {}
-
 .main-2 .box {
     width: 1184px;
     height: 152px;
-    border: 1px solid black;
     margin: auto;
 }
 
@@ -155,4 +152,29 @@
 .main-2 legend {
     color: gray;
     font-weight: 800;
+}
+.main-2 .pastki {
+    width: 1168px;
+    height: 48px;
+    display: flex;
+    margin-top: 50px;
+    justify-content: end;
+    gap: 20px;
+    align-items: center;
+}
+.main-2 .pastki .span {
+    width: 142px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+}
+
+.main-2 .pastki .button button {
+    border: none;
+    width: 144px;
+    height: 48px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
