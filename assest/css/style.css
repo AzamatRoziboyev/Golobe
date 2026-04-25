@@ -153,6 +153,7 @@
     color: gray;
     font-weight: 800;
 }
+
 .main-2 .pastki {
     width: 1168px;
     height: 48px;
@@ -162,6 +163,7 @@
     gap: 20px;
     align-items: center;
 }
+
 .main-2 .pastki .span {
     width: 142px;
     height: 48px;
@@ -177,4 +179,96 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* ============main-3========== */
+/* ============================ */
+.main-3 {
+    width: 1232px;
+    height: 542px;
+    border: 1px solid red;
+    margin: auto;
+
+}
+
+.main-3 .text {
+    width: 1232px;
+    height: 72px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px;
+}
+
+.main-3 .text .h2 h2 {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.main-3 .text .h2 small {
+    color: grey;
+}
+
+.main-3 .text .p span {
+    width: 149px;
+    height: 40px;
+    border: 1px solid aqua;
+    padding: 7px 7px;
+}
+
+.main-3 .box1 {
+    width: 1232px;
+    height: 430px;
+    border: 1px solid black;
+    margin-top: 40px;
+}
+
+.main-3 .box1 .bir {
+    width: 1232px;
+    height: 122px;
+    border: 3px solid gray;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-3 .box1 .katta {
+    width: 389px;
+    height: 122px;
+    border-radius: 16px;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-shadow: 2px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.main-3 .box1 .katta .img {
+    width: 90px;
+    height: 90px;
+
+}
+
+.main-3 .box1 .katta .img img {
+    width: 90px;
+    height: 90px;
+    border-radius: 8px;
+
+}
+
+.main-3 .box1 .katta .yozu {
+    width: 251px;
+    height: 45px;
+
+}
+
+.katta .yozu small {
+    color: gray;
+    font-weight: 800;
+}
+
+.katta .yozu p {
+    margin-top: 10px;
 }
