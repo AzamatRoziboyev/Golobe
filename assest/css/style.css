@@ -222,6 +222,9 @@
     height: 430px;
     border: 1px solid black;
     margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .main-3 .box1 .bir {
