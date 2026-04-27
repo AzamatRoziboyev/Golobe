@@ -62,6 +62,7 @@
     color: snow;
     border-radius: 8px;
 }
+
 /* ========main-1====== */
 /* ==================== */
 .main-1 {
@@ -74,14 +75,17 @@
     background-position: center;
     padding: 60px;
 }
+
 .main-1 div {
     width: 440px;
     height: 203px;
     color: snow;
 }
+
 .main-1 div h1 {
     font-size: 48px;
 }
+
 /* ========main-2======== */
 /* ====================== */
 .main-2 {
@@ -108,9 +112,11 @@
     height: 32px;
     margin: auto;
 }
+
 .main-2 .box h2 {
     margin-bottom: 23px;
 }
+
 .main-2 .fieldset {
     width: 1184px;
     height: 56px;
@@ -155,6 +161,7 @@
     align-items: center;
     justify-content: center;
 }
+
 /* =========main-3========== */
 /* ========================= */
 .main-3 {
@@ -165,6 +172,7 @@
     flex-direction: column;
     gap: 20px;
 }
+
 .main-3 .tecs {
     width: 1232px;
     height: 75px;
@@ -190,13 +198,220 @@
     color: gray;
     font-weight: 700;
 }
+
 .main-3 .img {
     width: 1440px;
     height: 486px;
-} 
+}
+
 .main-3 .img img {
     width: 1440px;
     height: 486px;
     background-color: #8DD3BB;
 }
 
+/* ==========main-4====== */
+/* ====================== */
+.main-4 {
+    width: 1232px;
+    height: 552px;
+    margin: auto;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.main-4 .text {
+    width: 1232px;
+    height: 75px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-4 .text h5 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.main-4 .text button {
+    width: 80px;
+    height: 40px;
+    border: 1px solid aqua;
+    background-color: snow;
+}
+
+.main-4 .text small {
+    color: gray;
+    font-weight: 700;
+}
+
+.main-4 .box1 {
+    width: 1232px;
+    height: 420px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-4 .box1 .bir {
+    width: 296px;
+    height: 420px;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.2),
+            rgb(0, 0, 0, 0.2)), url(../img/Melbourne.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+
+.main-4 .box1 .bir .p {
+    width: 248px;
+    height: 110px;
+    color: snow;
+}
+
+.main-4 .box1 .bir .p button {
+    width: 248px;
+    height: 48px;
+    background-color: #8DD3BB;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.main-4 .box1 .bir .p p {
+    font-size: 20px;
+}
+
+.main-4 .box1 .bir .p span {
+    font-size: 25px;
+    margin-left: 25px;
+}
+
+/* ======ikki========== */
+/* ==================== */
+.main-4 .box1 .ikki {
+    width: 296px;
+    height: 420px;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.2),
+            rgb(0, 0, 0, 0.2)), url(../img/parij.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+
+.main-4 .box1 .ikki .p {
+    width: 248px;
+    height: 110px;
+    color: snow;
+}
+
+.main-4 .box1 .ikki .p button {
+    width: 248px;
+    height: 48px;
+    background-color: #8DD3BB;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.main-4 .box1 .ikki .p p {
+    font-size: 20px;
+}
+
+.main-4 .box1 .ikki .p span {
+    font-size: 25px;
+    margin-left: 25px;
+}
+
+/* =====uch======= */
+.main-4 .box1 .uch {
+    width: 296px;
+    height: 420px;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.2),
+            rgb(0, 0, 0, 0.2)), url(../img/londin.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+
+.main-4 .box1 .uch .p {
+    width: 248px;
+    height: 110px;
+    color: snow;
+}
+
+.main-4 .box1 .uch .p button {
+    width: 248px;
+    height: 48px;
+    background-color: #8DD3BB;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.main-4 .box1 .uch .p p {
+    font-size: 20px;
+}
+
+.main-4 .box1 .uch .p span {
+    font-size: 25px;
+    margin-left: 25px;
+}
+
+/* ========tort======= */
+/* ==================== */
+.main-4 .box1 .tort {
+    width: 296px;
+    height: 420px;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.2),
+            rgb(0, 0, 0, 0.2)), url(../img/qalubiya.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+
+.main-4 .box1 .tort .p {
+    width: 248px;
+    height: 110px;
+    color: snow;
+}
+
+.main-4 .box1 .tort .p button {
+    width: 248px;
+    height: 48px;
+    background-color: #8DD3BB;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.main-4 .box1 .tort .p p {
+    font-size: 20px;
+}
+
+.main-4 .box1 .tort .p span {
+    font-size: 25px;
+    margin-left: 25px;
+}
