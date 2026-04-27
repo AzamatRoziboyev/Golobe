@@ -155,3 +155,48 @@
     align-items: center;
     justify-content: center;
 }
+/* =========main-3========== */
+/* ========================= */
+.main-3 {
+    width: 1440px;
+    height: 585px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.main-3 .tecs {
+    width: 1232px;
+    height: 75px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-3 .tecs h5 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.main-3 .tecs button {
+    width: 80px;
+    height: 40px;
+    border: 1px solid aqua;
+    background-color: snow;
+}
+
+.main-3 .tecs small {
+    color: gray;
+    font-weight: 700;
+}
+.main-3 .img {
+    width: 1440px;
+    height: 486px;
+} 
+.main-3 .img img {
+    width: 1440px;
+    height: 486px;
+    background-color: #8DD3BB;
+}
+
