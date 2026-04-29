@@ -415,3 +415,121 @@
     font-size: 25px;
     margin-left: 25px;
 }
+
+/* =======main-5====== */
+/* =================== */
+.ohirgi {
+    width: 1232px;
+    height: 540px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.ohirgi2 {
+    width: 1232px;
+    height: 468px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.yazuvli {
+    width: 552px;
+    height: 424px;
+    background-color: #8dd3bb;
+    border-radius: 20px;
+}
+
+.main-5 .tecs {
+    width: 1232px;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-5 .tecs h5 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.main-5 .tecs button {
+    width: 80px;
+    height: 40px;
+    border: 1px solid aqua;
+    background-color: snow;
+}
+
+.main-5 .tecs small {
+    color: gray;
+    font-weight: 700;
+}
+
+.ttt {
+    width: 504px;
+    height: 102px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.h5 {
+    width: 363px;
+    height: 102px;
+}
+
+.h5 h2 {
+    font-size: 45px;
+}
+
+.From {
+    width: 68px;
+    height: 62px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.lorem {
+    width: 504px;
+    height: 85px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.lll {
+    width: 504px;
+    height: 48px;
+}
+
+.boton {
+    text-align: center;
+    margin-top: 130px;
+}
+
+.yu {
+    font-size: 10px;
+}
+
+.IMGLAR {
+    width: 656px;
+    height: 424px;
+}
+
+.rrrrr img {
+    width: 318px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.io {
+    display: flex;
+    justify-content: space-between;
+}
+
+.oi {
+    display: flex;
+    justify-content: space-between;
+}
