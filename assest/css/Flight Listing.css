@@ -8,7 +8,7 @@
 header {
     width: 100%;
     height: 87px;
-    box-shadow: 0 2px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     position: sticky;
     top: 0;
     z-index: 100;
@@ -52,6 +52,10 @@ header nav .div2 div img {
     height: 45px;
     border-radius: 50%;
 
+}
+header nav .div1 .b {
+    display: flex;
+    gap: 40px;
 }
 
 header nav .div2 div {
