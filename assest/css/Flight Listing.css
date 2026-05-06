@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition: 1s;
 }
 
 header {
@@ -56,4 +57,45 @@ header nav .div2 div img {
 header nav .div2 div {
     display: flex;
     align-items: center;
+}
+
+/* ========form======= */
+/* =================== */
+form {
+    width: 1232px;
+    height: 120px;
+    border-radius: 16px;
+    box-shadow: 0px 0px 3px 0.2px rgba(0, 0, 0, 0.2);
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+form legend {
+    color: gray;
+    margin-left: 10px;
+}
+
+form fieldset {
+    padding: 4px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button {
+    border: none;
+    width: 56px;
+    height: 56px;
+    border-radius: 5px;
+    background-color: #8DD3BB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+form input,
+select {
+    border: none;
 }
