@@ -104,3 +104,60 @@ form input,
 select {
     border: none;
 }
+
+/* =====filter======== */
+/* =================== */
+.filters {
+    width: 1232px;
+    height: 1428px;
+    margin: auto;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.filter {
+    width: 343px;
+    height: 880px;
+    border: 1px solid magenta;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.filter ul li {
+    list-style: none;
+}
+
+.filter details {
+    width: 100%;
+    height: 87px;
+    border-bottom: 1px solid rgb(190, 190, 190);
+}
+
+.filter details ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filter details input {
+    width: 100%;
+}
+
+/* ======line==== */
+/* =============== */
+.line {
+    width: 0.5px;
+    height: 1360px;
+    background-color: black;
+
+}
+
+.filter-cards {
+    width: 840px;
+    height: 1428px;
+    border: 1px solid blue;
+}
