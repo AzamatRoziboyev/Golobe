@@ -193,3 +193,31 @@ select {
 .filter-sort-othercard i {
     margin-right: 10px;
 }
+.filter-sort-card-best {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    height: 80px;
+    border-bottom: 5px solid #8DD3BB;
+
+}
+.filter-sort-card-best span {
+    color: gray;
+
+}
+/* ========folter-show===== */
+/* ======================== */
+.filter-show {
+    width: 840px;
+    height: 18px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.filter-show span {
+    color: red;
+}
+/* =======card-filter======= */
+/* ========================= */
+
