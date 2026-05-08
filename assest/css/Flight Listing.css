@@ -159,6 +159,9 @@ select {
 .filter-cards {
     width: 840px;
     height: 1428px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .filter-sort {
     width: 840px;
@@ -220,4 +223,33 @@ select {
 }
 /* =======card-filter======= */
 /* ========================= */
-
+.card-filter {
+  width: 840px;
+  height: 286px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-filter-left {
+  width: 160px;
+  height: 238px;
+  border: 1px solid aqua;
+}
+.card-filter-left img {
+  width: 160px;
+}
+.card-filter-right {
+  width: 648px;
+  height: 238px;
+  border: 1px solid aqua;
+}
+.filter-cards button {
+  width: 840px;
+  height: 48px;
+  background-color: #000;
+  color: white;
+  border-radius: 10px;
+}
