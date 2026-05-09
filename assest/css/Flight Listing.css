@@ -163,6 +163,7 @@ select {
     flex-direction: column;
     justify-content: space-between;
 }
+
 .filter-sort {
     width: 840px;
     height: 80px;
@@ -172,6 +173,7 @@ select {
     justify-content: space-evenly;
     align-items: center;
 }
+
 .filter-sort-card {
     width: 160px;
     height: 45px;
@@ -179,23 +181,28 @@ select {
     flex-direction: column;
     gap: 7px;
 }
+
 .filter-sort-card span {
     color: gray;
-    
+
 }
+
 .filter-sort-line {
     width: 0.2px;
     height: 48px;
     background-color: gray;
 
 }
+
 .filter-sort-othercard {
     width: 160px;
     height: 24px;
 }
+
 .filter-sort-othercard i {
     margin-right: 10px;
 }
+
 .filter-sort-card-best {
     display: flex;
     flex-direction: column;
@@ -205,10 +212,12 @@ select {
     border-bottom: 5px solid #8DD3BB;
 
 }
+
 .filter-sort-card-best span {
     color: gray;
 
 }
+
 /* ========folter-show===== */
 /* ======================== */
 .filter-show {
@@ -218,49 +227,57 @@ select {
     justify-content: space-between;
     margin-top: 20px;
 }
+
 .filter-show span {
     color: red;
 }
+
 /* =======card-filter======= */
 /* ========================= */
 .card-filter {
-  width: 840px;
-  height: 286px;
-  border: 1px solid black;
-  border-radius: 10px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    width: 840px;
+    height: 286px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 .card-filter-left {
-  width: 160px;
-  height: 238px;
-  border: 1px solid aqua;
+    width: 160px;
+    height: 238px;
 }
+
 .card-filter-left img {
-  width: 160px;
+    width: 160px;
 }
+
 .card-filter-right {
-  width: 648px;
-  height: 238px;
-  border: 1px solid aqua;
+    width: 648px;
+    height: 238px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 22px;
 }
+
 .filter-cards button {
-  width: 840px;
-  height: 48px;
-  background-color: #000;
-  color: white;
-  border-radius: 10px;
+    width: 840px;
+    height: 48px;
+    background-color: #000;
+    color: white;
+    border-radius: 10px;
 }
+
 .card-filter-right .bir {
     width: 600px;
     height: 44px;
-    border: 1px solid black;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .card-filter .card-filter-right .bir .b {
     width: 40px;
     height: 32px;
@@ -269,6 +286,7 @@ select {
     color: #000;
     border-radius: 4px;
 }
+
 .card-filter-right .bir div p {
     color: #FF8682;
     font-size: 30px;
@@ -277,4 +295,73 @@ select {
 
 }
 
+.ikkini-orash {
+    width: 600px;
+    height: 98px;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ikki {
+    width: 600px;
+    height: 41px;
+    display: flex;
+    gap: 60px;
+}
+
+.ikki span {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.ikki div .pustoy {
+    width: 24px;
+    height: 24px;
+    border: 1px solid gray;
+    display: block;
+}
+
+.ikki input {
+    margin-right: 10px;
+}
+
+.ikki div .p1 {
+    margin-left: 25px;
+    color: gray;
+}
+
+.ikki div .p2 {
+    color: gray;
+}
+
+/* ====uch===== */
+.uch {
+    width: 600px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.uch .yurak {
+    width: 48px;
+    height: 48px;
+    border: 1px solid aqua;
+    border-radius: 4px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.uch .buttom {
+    width: 536px;
+    height: 48px;
+    border-radius: 4px;
+    background-color: #8DD3BB;
+    font-size: 20px;
+    color: #000;
+    border: none;
+}
