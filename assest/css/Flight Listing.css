@@ -253,3 +253,28 @@ select {
   color: white;
   border-radius: 10px;
 }
+.card-filter-right .bir {
+    width: 600px;
+    height: 44px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-filter .card-filter-right .bir .b {
+    width: 40px;
+    height: 32px;
+    background-color: white;
+    border: 1px solid aqua;
+    color: #000;
+    border-radius: 4px;
+}
+.card-filter-right .bir div p {
+    color: #FF8682;
+    font-size: 30px;
+    font-weight: 900;
+    margin-left: 20px;
+
+}
+
+
