@@ -111,7 +111,6 @@ select {
     width: 1232px;
     height: 1428px;
     margin: auto;
-    border: 1px solid red;
     display: flex;
     justify-content: space-between;
     align-items: start;
@@ -120,46 +119,49 @@ select {
 .filter {
     width: 343px;
     height: 880px;
-    border: 1px solid magenta;
-    /* display: flex;
+    display: flex;
     flex-direction: column;
-    justify-content: space-evenly; */
+    justify-content: space-between;
 }
+
 /* =========filter==== */
 .filter .price {
     width: 343px;
     height: 87px;
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+
 .filter .price .price-1 {
     width: 343px;
     height: 24px;
-    border: 2px solid black;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .filter .price .price-1 div p {
     font-size: 20px;
 }
+
 .price .price-2 {
     width: 343px;
     height: 47px;
-    border: 1px solid red;
-} 
+}
+
 .price .price-2 .bir {
     width: 343px;
     height: 24px;
     display: flex;
     align-items: center;
 }
+
 .price .price-2 .bir input {
     width: 340px;
     height: 5px;
 }
+
 .price .price-2 .ikki {
     width: 340px;
     height: 15px;
@@ -167,38 +169,88 @@ select {
     justify-content: space-between;
 
 }
+
+/* ======chiziq=== */
+.chiziq {
+    width: 343px;
+    height: 0.3px;
+    border: 0.3px solid #112211;
+}
+
 /* =======rating== */
 .rating {
     width: 343px;
     height: 72px;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+
 .rating .rating-1 {
     width: 343px;
     height: 24px;
-    border: 1px solid red;
     display: flex;
     justify-content: space-between;
-} 
+}
+
 .rating .rating-1 div p {
     font-size: 20px;
 }
+
 .rating .rating-2 {
     width: 343px;
     height: 32px;
-    border: 1px solid black;
     display: flex;
     gap: 15px;
 }
+
 .rating .rating-2 button {
     width: 40px;
     height: 31px;
     border-radius: 4px;
     background-color: white;
     border: 1px solid #8DD3BB;
+}
+
+/* ======airlines=== */
+.airlines {
+    width: 343px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.airlines .airlines-1 {
+    width: 343px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.airlines .airlines-1 p {
+    font-size: 20px;
+}
+
+.airlines .airlines-2 {
+    width: 343px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.airlines .airlines-2 div {
+    width: 343px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.airlines .airlines-2 div input {
+    width: 24px;
+    height: 22px;
+    margin-right: 10px;
 }
 
 
@@ -221,6 +273,7 @@ select {
     flex-direction: column;
     justify-content: space-between;
 }
+
 /* ========.filter-sort== */
 .filter-sort {
     width: 840px;
