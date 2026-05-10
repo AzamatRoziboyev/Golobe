@@ -121,31 +121,89 @@ select {
     width: 343px;
     height: 880px;
     border: 1px solid magenta;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; */
+}
+/* =========filter==== */
+.filter .price {
+    width: 343px;
+    height: 87px;
+    border: 1px solid red;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
-
-.filter ul li {
-    list-style: none;
-}
-
-.filter details {
-    width: 100%;
-    height: 87px;
-    border-bottom: 1px solid rgb(190, 190, 190);
-}
-
-.filter details ul {
-    width: 100%;
+.filter .price .price-1 {
+    width: 343px;
+    height: 24px;
+    border: 2px solid black;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
-.filter details input {
-    width: 100%;
+.filter .price .price-1 div p {
+    font-size: 20px;
 }
+.price .price-2 {
+    width: 343px;
+    height: 47px;
+    border: 1px solid red;
+} 
+.price .price-2 .bir {
+    width: 343px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+}
+.price .price-2 .bir input {
+    width: 340px;
+    height: 5px;
+}
+.price .price-2 .ikki {
+    width: 340px;
+    height: 15px;
+    display: flex;
+    justify-content: space-between;
+
+}
+/* =======rating== */
+.rating {
+    width: 343px;
+    height: 72px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.rating .rating-1 {
+    width: 343px;
+    height: 24px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+} 
+.rating .rating-1 div p {
+    font-size: 20px;
+}
+.rating .rating-2 {
+    width: 343px;
+    height: 32px;
+    border: 1px solid black;
+    display: flex;
+    gap: 15px;
+}
+.rating .rating-2 button {
+    width: 40px;
+    height: 31px;
+    border-radius: 4px;
+    background-color: white;
+    border: 1px solid #8DD3BB;
+}
+
+
+
+
 
 /* ======line==== */
 /* =============== */
@@ -163,7 +221,7 @@ select {
     flex-direction: column;
     justify-content: space-between;
 }
-
+/* ========.filter-sort== */
 .filter-sort {
     width: 840px;
     height: 80px;
