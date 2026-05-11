@@ -152,3 +152,111 @@ header nav .div2 div {
     height: 395px;
     border-radius: 12px;
 }
+/* =========main-2======= */
+/* ====================== */
+.main-2 {
+    width: 1232px;
+    height: 970px;
+    border: 1px solid red;
+    margin: auto;
+    margin-top: 50px;
+}
+.main-2 .basic {
+    width: 1232px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-2 .basic .economy {
+    width: 380px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* ====rasmlar== */
+.rasmlar {
+    width: 1232px;
+    height: 120px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.rasmlar img {
+    width: 120px;
+    height: 120px;
+    border-radius: 12px;
+}
+/* =====  airlines===*/
+.airlines {
+    width: 1232px;
+    height: 102px;
+    background-color: #8DD3BB99;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    margin-top: 30px;
+
+}
+.airlines .bir h4 {
+    font-size: 25px;
+    margin-left: 7px;
+}
+.airlines .soat {
+    width: 1200px;
+    height: 24px;
+    margin: auto;
+    display: flex;
+    gap: 50px;
+}
+/* ====return=== */
+.return {
+    width: 1232px;
+    height: 287px;
+    border: 1px solid red;
+    padding: 22px;
+
+}
+.return .wed {
+    width: 1184px;
+    height: 25px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.return .wed div p {
+    font-size: 20px;
+    font-weight: 700;
+}
+.return .wed div span {
+    color: gray;
+    font-size: 20px;
+}
+/* ====airbus===== */
+.airbus {
+    width: 1200px;
+    height: 86px;
+    border: 1px solid red;
+
+}
+.airbus .birnchi {
+    width: 262px;
+    height: 86px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.airbus .birnchi .img {
+    width: 64px;
+    height: 44px;
+}
+.airbus .birnchi .img img {
+    width: 64px;
+    height: 44px;
+}
