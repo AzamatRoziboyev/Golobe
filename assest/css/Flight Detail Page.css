@@ -22,7 +22,7 @@ header {
 header nav {
     display: flex;
     justify-content: space-around;
-    gap: 350px;
+    gap: 250px;
 
 }
 
@@ -62,4 +62,19 @@ header nav .div1 .b {
 header nav .div2 div {
     display: flex;
     align-items: center;
+}
+
+/* =======main-1===== */
+/* ================== */
+.main-1 {
+    width: 997px;
+    height: 17px;
+
+    margin: auto;
+    margin-top: 50px;
+}
+
+.main-1 span {
+    color: red;
+
 }
