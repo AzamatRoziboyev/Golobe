@@ -78,6 +78,7 @@ header nav .div2 div {
     color: red;
 
 }
+
 /* =========emirates==== */
 /* ===================== */
 .emirates {
@@ -88,6 +89,7 @@ header nav .div2 div {
     display: flex;
     justify-content: space-between;
 }
+
 .emirates .emirates1 {
     width: 360px;
     height: 104px;
@@ -96,6 +98,7 @@ header nav .div2 div {
     gap: 10px;
 
 }
+
 .emirates .emirates1 div button {
     width: 40px;
     height: 32px;
@@ -103,6 +106,7 @@ header nav .div2 div {
     border: 1px solid aqua;
     border-radius: 4px;
 }
+
 .emirates .emirates2 {
     width: 276px;
     height: 103px;
@@ -111,18 +115,21 @@ header nav .div2 div {
     flex-direction: column;
     justify-content: space-between;
 }
+
 .emirates .emirates2 p {
     font-size: 40px;
     font-weight: 900;
     color: red;
 }
+
 .emirates .emirates2 div {
     width: 276px;
     height: 48px;
     display: flex;
     justify-content: space-between;
-    
+
 }
+
 .emirates2 div i {
     width: 48px;
     height: 48px;
@@ -132,6 +139,7 @@ header nav .div2 div {
     justify-content: center;
     align-items: center;
 }
+
 .emirates2 div button {
     width: 150px;
     height: 48px;
@@ -139,6 +147,7 @@ header nav .div2 div {
     border-radius: 4px;
     border: none;
 }
+
 /* =======img======= */
 /* ================= */
 .img {
@@ -147,20 +156,22 @@ header nav .div2 div {
     margin: auto;
     margin-top: 50px;
 }
+
 .img img {
     width: 1232px;
     height: 395px;
     border-radius: 12px;
 }
+
 /* =========main-2======= */
 /* ====================== */
 .main-2 {
     width: 1232px;
     height: 970px;
-    border: 1px solid red;
     margin: auto;
     margin-top: 50px;
 }
+
 .main-2 .basic {
     width: 1232px;
     height: 30px;
@@ -168,6 +179,7 @@ header nav .div2 div {
     justify-content: space-between;
     align-items: center;
 }
+
 .main-2 .basic .economy {
     width: 380px;
     height: 24px;
@@ -175,6 +187,7 @@ header nav .div2 div {
     justify-content: space-between;
     align-items: center;
 }
+
 /* ====rasmlar== */
 .rasmlar {
     width: 1232px;
@@ -183,11 +196,13 @@ header nav .div2 div {
     display: flex;
     justify-content: space-between;
 }
+
 .rasmlar img {
     width: 120px;
     height: 120px;
     border-radius: 12px;
 }
+
 /* =====  airlines===*/
 .airlines {
     width: 1232px;
@@ -201,10 +216,12 @@ header nav .div2 div {
     margin-top: 30px;
 
 }
+
 .airlines .bir h4 {
     font-size: 25px;
     margin-left: 7px;
 }
+
 .airlines .soat {
     width: 1200px;
     height: 24px;
@@ -212,51 +229,220 @@ header nav .div2 div {
     display: flex;
     gap: 50px;
 }
+
 /* ====return=== */
 .return {
     width: 1232px;
     height: 287px;
-    border: 1px solid red;
     padding: 22px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 2px 1px gray;
 
 }
+
 .return .wed {
     width: 1184px;
     height: 25px;
-    border: 1px solid black;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: auto;
 }
+
 .return .wed div p {
     font-size: 20px;
     font-weight: 700;
 }
+
 .return .wed div span {
     color: gray;
     font-size: 20px;
 }
+
 /* ====airbus===== */
+.airbus2 {
+    width: 1200px;
+    height: 174px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .airbus {
     width: 1200px;
     height: 86px;
-    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
 
 }
-.airbus .birnchi {
+
+.airbus2 .airbus .birnchi {
     width: 262px;
     height: 86px;
-    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.airbus .birnchi .img1 {
+    width: 64px;
+    height: 44px;
+}
+
+.airbus .birnchi .img1 img {
+    width: 64px;
+    height: 44px;
+}
+
+.airbus .birnchi .text1 {
+    width: 110px;
+    height: 29px;
+}
+
+.airbus .birnchi .text1 small {
+    color: gray;
+}
+
+/* ===ikki== */
+.ikkinchi {
+    width: 360px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.ikkinchi .ciziq {
+    width: 0.5px;
+    height: 48px;
+    border-right: 1px solid gray;
+}
+
+/* ====newark=== */
+.newark {
+    width: 1200px;
+    height: 48px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.airbus .birnchi .img {
-    width: 64px;
-    height: 44px;
+
+.newark div i {
+    font-size: 25px;
 }
-.airbus .birnchi .img img {
-    width: 64px;
-    height: 44px;
+
+.newark div small {
+    color: gray;
+}
+
+.newark div span {
+    font-weight: 900;
+}
+
+/* ======footer==== */
+/* ================ */
+footer {
+    width: 100%;
+    height: 400px;
+    background-color: aqua;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+footer .box5 {
+    width: 1232px;
+    height: 305px;
+    margin: auto;
+    border-radius: 20px;
+    padding-left: 15px;
+    background-color: #CDEAE1;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-100px);
+
+
+}
+
+footer .box5 .div {
+    width: 593px;
+    height: 305px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+footer .box5 .div .h6 {
+    width: 364px;
+    height: 108px;
+    font-size: 60px;
+}
+
+footer .box5 .div p {
+    color: gray;
+    font-weight: 900;
+}
+
+footer .box5 .div small {
+    color: gray;
+}
+
+footer .box5 .button input {
+    width: 473px;
+    height: 56px;
+    padding-left: 20px;
+    border-radius: 4px;
+    border: none;
+}
+
+footer .box5 .button button {
+    width: 104px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    background-color: black;
+    color: snow;
+}
+
+footer .box5 .img {
+    width: 400px;
+    height: 305px;
+}
+
+footer .box5 .img img {
+    width: 400px;
+    height: 305px;
+}
+
+/* =====footre======== */
+/* =================== */
+
+footer .box6 {
+    width: 1232px;
+    height: 140px;
+    margin: auto;
+    display: flex;
+    margin-top: 250px;
+    justify-content: space-around;
+    transform: translateY(-300px);
+
+
+}
+
+footer .box6 .div1 {
+    width: 175px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer .box6 div small {
+    display: block;
+    color: grey;
 }
