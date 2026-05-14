@@ -236,7 +236,8 @@ header nav .div2 div {
     height: 287px;
     padding: 22px;
     margin-top: 50px;
-    box-shadow: 0px 0px 2px 1px gray;
+    box-shadow: 0px 0px 1px 0.5px gray;
+    border-radius: 20px;
 
 }
 
@@ -318,7 +319,7 @@ header nav .div2 div {
 .ikkinchi .ciziq {
     width: 0.5px;
     height: 48px;
-    border-right: 1px solid gray;
+    border-right: 1px solid grey;
 }
 
 /* ====newark=== */

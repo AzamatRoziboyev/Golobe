@@ -77,3 +77,13 @@ header nav .div2 div {
     color: red;
 
 }
+/* ======frame===== */
+/* ================ */
+.frame {
+    width: 1280px;
+    height: 1126px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 20px;
+    
+}
