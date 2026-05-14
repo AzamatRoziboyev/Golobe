@@ -225,18 +225,25 @@ header nav .div2 div {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     border: 1px solid black;
     padding: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .payment-option .pay {
     width: 758px;
     height: 80px;
     border-radius: 12px;
-    background-color: #8DD3BB;
     padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pay:hover {
+    background-color: #8DD3BB;
 }
 .payment-option .pay .h5 {
     width: 219px;
     height: 45px;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -247,4 +254,53 @@ header nav .div2 div {
 }
 .payment-option .pay .h5 p {
     color: #112211;
+}
+.payment-option .pay .input {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.payment-option .pay .input input {
+    width: 20px;
+    height: 20px;
+}
+/* ========pay-part */
+.pay-part {
+    width: 758px;
+    height: 114px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pay-part .h3 {
+    width: 632px;
+    height: 114px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.pay-part .h3 a {
+    color: black;
+}
+.pay-part .h3 p {
+    color: #112211;
+}
+.pay-part .h3 h3 {
+    font-size: 25px;
+}
+.pay-part .input {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pay-part .input input {
+    width: 20px;
+    height: 20px;
 }
