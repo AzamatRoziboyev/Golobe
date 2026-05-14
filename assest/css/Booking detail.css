@@ -106,7 +106,6 @@ header nav .div2 div {
 .frame1 .flight-card .product-card {
     width: 742px;
     height: 39px;
-    border: 2px solid rebeccapurple;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -124,7 +123,6 @@ header nav .div2 div {
 .flight-card .return {
     width: 742px;
     height: 24px;
-    border: 2px solid rebeccapurple;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -140,17 +138,19 @@ header nav .div2 div {
 .emirates {
     width: 742px;
     height: 174px;
-    border: 2px solid rebeccapurple;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .emirates .emirates1 {
     width: 742px;
     height: 86px;
-    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
 }
 .emirates .emirates1 .bir {
     width: 262px;
     height: 86px;
-    border: 1px solid black;
     padding: 20px;
     display: flex;
     justify-content: space-around;
@@ -164,11 +164,53 @@ header nav .div2 div {
     width: 64px;
     height: 44px;
 }
-.emirates1 .emirates1 .bir .text {
+.emirates .emirates1 .bir .text {
     width: 110px;
     height: 54px;
-    border: 1px solid red;
 }
-.emirates1 .emirates1 .bir .text p {
+.emirates .emirates1 .bir .text p {
    font-weight: 900;
+   font-size: 25px;
+
+}
+.emirates .emirates1 .bir .text small {
+    color: gray;
+}
+/* =====ikki==== */
+.emirates .emirates1 .ikki {
+    width: 360px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.emirates .emirates1 .ikki .ciziq {
+    width: 0.5px;
+    height: 48px;
+    border-right: 1px solid #D7E2EE;
+}
+/* ======emirates2======= */
+.emirates2 {
+    width: 742px;
+    height: 48px;
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.emirates2 div i {
+    font-size: 25px;
+}
+
+.emirates2 div small {
+    color: gray;
+    font-size: 20px;
+}
+
+.emirates2 div span {
+    font-size: 25px;
+    font-weight: 900;
 }
