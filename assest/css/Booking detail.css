@@ -98,6 +98,7 @@ header nav .div2 div {
     width: 790px;
     height: 349px;
     border: 1px solid black;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     padding: 22px;
     display: flex;
     flex-direction: column;
@@ -213,4 +214,12 @@ header nav .div2 div {
 .emirates2 div span {
     font-size: 25px;
     font-weight: 900;
+}
+/* =========payment-option====== */
+/* ============================= */
+.payment-option {
+    width: 790px;
+    height: 242px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border: 1px solid black;
 }
