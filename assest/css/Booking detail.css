@@ -85,5 +85,90 @@ header nav .div2 div {
     border: 1px solid black;
     margin: auto;
     margin-top: 20px;
-    
+
+}
+/* ====frame1=== */
+.frame1 {
+    width: 790px;
+    height: 1126px;
+    border: 1px solid red;
+
+}
+.frame1 .flight-card {
+    width: 790px;
+    height: 349px;
+    border: 1px solid black;
+    padding: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.frame1 .flight-card .product-card {
+    width: 742px;
+    height: 39px;
+    border: 2px solid rebeccapurple;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.frame1 .flight-card .product-card div span {
+    font-size: 35px;
+    font-weight: 900;
+    color: #FF8682;
+}
+.frame1 .flight-card .product-card div p {
+    font-size: 25px;
+    font-weight: 900;
+}
+/* ========return====== */
+.flight-card .return {
+    width: 742px;
+    height: 24px;
+    border: 2px solid rebeccapurple;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flight-card .return div p {
+    font-weight: 700;
+}
+.flight-card .return div span {
+    color: gray;
+    font-size: 20px;
+}
+/* ======emirates==== */
+.emirates {
+    width: 742px;
+    height: 174px;
+    border: 2px solid rebeccapurple;
+}
+.emirates .emirates1 {
+    width: 742px;
+    height: 86px;
+    border: 1px solid red;
+}
+.emirates .emirates1 .bir {
+    width: 262px;
+    height: 86px;
+    border: 1px solid black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.emirates .emirates1 .bir .img1 {
+    width: 64px;
+    height: 44px;
+}
+.emirates .emirates1 .bir .img1 img {
+    width: 64px;
+    height: 44px;
+}
+.emirates1 .emirates1 .bir .text {
+    width: 110px;
+    height: 54px;
+    border: 1px solid red;
+}
+.emirates1 .emirates1 .bir .text p {
+   font-weight: 900;
 }
