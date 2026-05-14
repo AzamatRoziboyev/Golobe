@@ -153,6 +153,8 @@ header nav .div2 div {
     width: 262px;
     height: 86px;
     padding: 20px;
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -222,4 +224,27 @@ header nav .div2 div {
     height: 242px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     border: 1px solid black;
+    padding: 17px;
+}
+.payment-option .pay {
+    width: 758px;
+    height: 80px;
+    border-radius: 12px;
+    background-color: #8DD3BB;
+    padding: 15px;
+}
+.payment-option .pay .h5 {
+    width: 219px;
+    height: 45px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.payment-option .pay .h5 h5 {
+    font-size: 20px;
+}
+.payment-option .pay .h5 p {
+    color: #112211;
 }
