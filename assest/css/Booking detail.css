@@ -92,13 +92,16 @@ header nav .div2 div {
     width: 790px;
     height: 1126px;
     border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
 }
 .frame1 .flight-card {
     width: 790px;
     height: 349px;
-    border: 1px solid black;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
     padding: 22px;
     display: flex;
     flex-direction: column;
@@ -223,7 +226,7 @@ header nav .div2 div {
     width: 790px;
     height: 242px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    border: 1px solid black;
+    border-radius: 12px;
     padding: 17px;
     display: flex;
     flex-direction: column;
@@ -303,4 +306,97 @@ header nav .div2 div {
 .pay-part .input input {
     width: 20px;
     height: 20px;
+}
+/* ==========logn========= */
+/* ======================= */
+.login {
+    width: 790px;
+    height: 455px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.login .login1 {
+    width: 742px;
+    height: 211px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.login .login1 h4 {
+    font-size: 35px;
+}
+.login .login1 input {
+    width: 742px;
+    height: 56px;
+    font-size: 20px;
+    padding: 20px;
+}
+.login .login1 p {
+    color: #112211;
+    font-size: 15px;
+}
+.login .login1 button {
+    width: 742px;
+    height: 48px;
+    font-size: 20px;
+    background-color: #8DD3BB;
+    border: none;
+    border-radius: 4px;
+    color: black;
+}
+/* =======login2==== */
+.login .login2 {
+    width: 742px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.login .login2 .chiziq {
+    width: 350px;
+    height: 0;
+    border: 0.5px solid gray;
+}
+/* =======login3==== */
+.login .login3 {
+    width: 742px;
+    height: 128px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.login .login3 .bir {
+    width: 742px;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+}
+.login .login3 .bir div {
+    width: 236px;
+    height: 56px;
+    border: 1px solid #8DD3BB;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.login .login3 .ikki {
+    width: 742px;
+    height: 56px;
+    border: 1px solid #8DD3BB;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.login .login3 .ikki i {
+    margin-right: 10px;
 }
