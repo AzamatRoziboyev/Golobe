@@ -63,6 +63,7 @@ header nav .div2 div {
     display: flex;
     align-items: center;
 }
+
 /* =====main-1====== */
 /* ================= */
 .main-1 {
@@ -77,6 +78,7 @@ header nav .div2 div {
     color: red;
 
 }
+
 /* ======frame===== */
 /* ================ */
 .frame {
@@ -88,6 +90,7 @@ header nav .div2 div {
     justify-content: space-between;
 
 }
+
 /* ====frame1=== */
 .frame1 {
     width: 790px;
@@ -97,6 +100,7 @@ header nav .div2 div {
     justify-content: space-between;
 
 }
+
 .frame1 .flight-card {
     width: 790px;
     height: 349px;
@@ -107,6 +111,7 @@ header nav .div2 div {
     flex-direction: column;
     justify-content: space-around;
 }
+
 .frame1 .flight-card .product-card {
     width: 742px;
     height: 39px;
@@ -114,15 +119,18 @@ header nav .div2 div {
     justify-content: space-between;
     align-items: center;
 }
+
 .frame1 .flight-card .product-card div span {
     font-size: 35px;
     font-weight: 900;
     color: #FF8682;
 }
+
 .frame1 .flight-card .product-card div p {
     font-size: 25px;
     font-weight: 900;
 }
+
 /* ========return====== */
 .flight-card .return {
     width: 742px;
@@ -131,13 +139,16 @@ header nav .div2 div {
     justify-content: space-between;
     align-items: center;
 }
+
 .flight-card .return div p {
     font-weight: 700;
 }
+
 .flight-card .return div span {
     color: gray;
     font-size: 20px;
 }
+
 /* ======emirates==== */
 .emirates {
     width: 742px;
@@ -146,12 +157,14 @@ header nav .div2 div {
     flex-direction: column;
     justify-content: space-between;
 }
+
 .emirates .emirates1 {
     width: 742px;
     height: 86px;
     display: flex;
     justify-content: space-between;
 }
+
 .emirates .emirates1 .bir {
     width: 262px;
     height: 86px;
@@ -162,26 +175,32 @@ header nav .div2 div {
     justify-content: space-around;
     align-items: center;
 }
+
 .emirates .emirates1 .bir .img1 {
     width: 64px;
     height: 44px;
 }
+
 .emirates .emirates1 .bir .img1 img {
     width: 64px;
     height: 44px;
 }
+
 .emirates .emirates1 .bir .text {
     width: 110px;
     height: 54px;
 }
+
 .emirates .emirates1 .bir .text p {
-   font-weight: 900;
-   font-size: 25px;
+    font-weight: 900;
+    font-size: 25px;
 
 }
+
 .emirates .emirates1 .bir .text small {
     color: gray;
 }
+
 /* =====ikki==== */
 .emirates .emirates1 .ikki {
     width: 360px;
@@ -197,11 +216,12 @@ header nav .div2 div {
     height: 48px;
     border-right: 1px solid #D7E2EE;
 }
+
 /* ======emirates2======= */
 .emirates2 {
     width: 742px;
     height: 48px;
-     display: flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
@@ -220,6 +240,7 @@ header nav .div2 div {
     font-size: 25px;
     font-weight: 900;
 }
+
 /* =========payment-option====== */
 /* ============================= */
 .payment-option {
@@ -232,6 +253,7 @@ header nav .div2 div {
     flex-direction: column;
     justify-content: space-between;
 }
+
 .payment-option .pay {
     width: 758px;
     height: 80px;
@@ -241,9 +263,11 @@ header nav .div2 div {
     justify-content: space-between;
     align-items: center;
 }
+
 .pay:hover {
     background-color: #8DD3BB;
 }
+
 .payment-option .pay .h5 {
     width: 219px;
     height: 45px;
@@ -252,12 +276,15 @@ header nav .div2 div {
     justify-content: space-between;
 
 }
+
 .payment-option .pay .h5 h5 {
     font-size: 20px;
 }
+
 .payment-option .pay .h5 p {
     color: #112211;
 }
+
 .payment-option .pay .input {
     width: 48px;
     height: 48px;
@@ -265,10 +292,12 @@ header nav .div2 div {
     justify-content: center;
     align-items: center;
 }
+
 .payment-option .pay .input input {
     width: 20px;
     height: 20px;
 }
+
 /* ========pay-part */
 .pay-part {
     width: 758px;
@@ -279,6 +308,7 @@ header nav .div2 div {
     justify-content: space-between;
     align-items: center;
 }
+
 .pay-part .h3 {
     width: 632px;
     height: 114px;
@@ -286,15 +316,19 @@ header nav .div2 div {
     flex-direction: column;
     justify-content: space-between;
 }
+
 .pay-part .h3 a {
     color: black;
 }
+
 .pay-part .h3 p {
     color: #112211;
 }
+
 .pay-part .h3 h3 {
     font-size: 25px;
 }
+
 .pay-part .input {
     width: 48px;
     height: 48px;
@@ -303,10 +337,12 @@ header nav .div2 div {
     justify-content: center;
     align-items: center;
 }
+
 .pay-part .input input {
     width: 20px;
     height: 20px;
 }
+
 /* ==========logn========= */
 /* ======================= */
 .login {
@@ -319,27 +355,32 @@ header nav .div2 div {
     flex-direction: column;
     justify-content: space-between;
 }
+
 .login .login1 {
     width: 742px;
     height: 211px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
+
 }
+
 .login .login1 h4 {
     font-size: 35px;
 }
+
 .login .login1 input {
     width: 742px;
     height: 56px;
     font-size: 20px;
     padding: 20px;
 }
+
 .login .login1 p {
     color: #112211;
     font-size: 15px;
 }
+
 .login .login1 button {
     width: 742px;
     height: 48px;
@@ -349,6 +390,7 @@ header nav .div2 div {
     border-radius: 4px;
     color: black;
 }
+
 /* =======login2==== */
 .login .login2 {
     width: 742px;
@@ -358,11 +400,13 @@ header nav .div2 div {
     align-items: center;
 
 }
+
 .login .login2 .chiziq {
     width: 350px;
     height: 0;
     border: 0.5px solid gray;
 }
+
 /* =======login3==== */
 .login .login3 {
     width: 742px;
@@ -371,12 +415,14 @@ header nav .div2 div {
     flex-direction: column;
     justify-content: space-between;
 }
+
 .login .login3 .bir {
     width: 742px;
     height: 56px;
     display: flex;
     justify-content: space-between;
 }
+
 .login .login3 .bir div {
     width: 236px;
     height: 56px;
@@ -387,6 +433,7 @@ header nav .div2 div {
     align-items: center;
     font-size: 30px;
 }
+
 .login .login3 .ikki {
     width: 742px;
     height: 56px;
@@ -397,36 +444,42 @@ header nav .div2 div {
     align-items: center;
     font-size: 25px;
 }
+
 .login .login3 .ikki i {
     margin-right: 10px;
 }
+
 /* =======frame2======= */
 /* ==================== */
 .frame .frame2 {
     width: 450px;
     height: 469px;
-   border-radius: 12px;
+    border-radius: 12px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+
 .frame .frame2 .economy {
     width: 367px;
     height: 120px;
     display: flex;
     justify-content: space-between;
-} 
-.frame .frame2  .economy .img {
+}
+
+.frame .frame2 .economy .img {
     width: 120px;
     height: 120px;
 }
+
 .frame .frame2 .economy .img img {
     width: 120px;
     height: 120px;
     border-radius: 12px;
 }
+
 .frame .frame2 .economy .teks {
     width: 223px;
     height: 120px;
@@ -435,13 +488,16 @@ header nav .div2 div {
     justify-content: space-between;
     padding: 10px;
 }
+
 .frame2 .economy .teks div p {
     color: gray;
     font-size: 18px;
 }
+
 .frame2 .economy .teks div h4 {
     font-size: 20px;
 }
+
 .frame2 .economy .teks div button {
     width: 40px;
     height: 32px;
@@ -449,11 +505,13 @@ header nav .div2 div {
     border-radius: 8px;
     margin-right: 10px;
 }
+
 .frame2 .chiziq {
     width: 402px;
     height: 0.5px;
     border: 0.5px solid gray;
 }
+
 /* =========your=== */
 .frame2 .your {
     width: 296px;
@@ -461,9 +519,11 @@ header nav .div2 div {
     display: flex;
     align-items: center;
 }
+
 .frame2 .your p {
     font-size: 20px;
 }
+
 /* ==========Details======= */
 .frame .frame2 .details {
     width: 402px;
@@ -472,10 +532,12 @@ header nav .div2 div {
     flex-direction: column;
     justify-content: space-between;
 }
+
 .frame2 .details .p p {
     font-size: 25px;
     font-weight: 700;
 }
+
 .frame2 .details div {
     width: 402px;
     height: 20px;
@@ -483,14 +545,17 @@ header nav .div2 div {
     justify-content: space-between;
     align-items: center;
 }
+
 .frame2 .details div p {
     color: #112211;
     font-size: 20px;
 }
+
 .frame2 .details div span {
     font-weight: 800;
     font-size: 20px;
 }
+
 /* =========total==== */
 .frame2 .total {
     width: 402px;
@@ -498,14 +563,17 @@ header nav .div2 div {
     display: flex;
     justify-content: space-between;
 }
+
 .frame2 .total p {
     font-size: 20px;
     color: #112211;
 }
+
 .frame2 .total span {
     font-size: 20px;
     font-weight: 800;
 }
+
 /* =======footer==== */
 /* ================= */
 footer {
