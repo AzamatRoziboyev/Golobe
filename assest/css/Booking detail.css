@@ -374,6 +374,7 @@ header nav .div2 div {
     height: 56px;
     font-size: 20px;
     padding: 20px;
+    border-radius: 12px;
 }
 
 .login .login1 p {
