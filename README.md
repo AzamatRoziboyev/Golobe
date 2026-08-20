@@ -39,7 +39,7 @@ git clone "https://github.com/AzamatRoziboyev/Golobe.git"
 
 2. Open project folder:
 
-cd laslesvpn-landing-page
+cd Golobe
 
 3. Run:
 
