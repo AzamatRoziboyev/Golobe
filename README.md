@@ -1,14 +1,14 @@
-# Golobe#
+# Golobe
 
 This is a modern and responsive landing page for a VPN service built using HTML and CSS.
 
 ## 🚀 Live Demo
 
-👉 [Live](https://lasles-vpn-project-mu.vercel.app/)
+👉 [Live](golobe-cyan.vercel.app (https://golobe-cyan.vercel.app/))
 
 ## 📸 Screenshots
 
-![Preview](./assest/img/laslesvpn-screenshot.png)
+![Preview](./assest/img/live.jpg)
 
 ## ✨ Features
 
