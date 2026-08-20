@@ -4,7 +4,7 @@ This is a modern and responsive landing page for a VPN service built using HTML 
 
 ## 🚀 Live Demo
 
-👉 [Live]((https://golobe-cyan.vercel.app/))
+👉 [Live](golobe-cyan.vercel.app)
 
 ## 📸 Screenshots
 
