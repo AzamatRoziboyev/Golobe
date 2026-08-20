@@ -35,7 +35,7 @@ README.md
 
 1. Clone the repository:
 
-git clone "https://github.com/AzamatRoziboyev/LaslesVPN-project.git"
+git clone "https://github.com/AzamatRoziboyev/Golobe.git"
 
 2. Open project folder:
 
