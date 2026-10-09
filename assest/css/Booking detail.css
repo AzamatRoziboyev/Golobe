@@ -679,3 +679,349 @@ footer .box6 div small {
     display: block;
     color: grey;
 }
+
+/* ===== TELEFON VERSIYA (style.css oxiriga qo'shing) ===== */
+@media (max-width: 768px) {
+
+    html, body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    /* ---------- Katta bloklar: kenglik 100%, balandlik avtomatik ---------- */
+    header,
+    .frame, .frame1, .frame .frame2,
+    .frame1 .flight-card, .frame1 .flight-card .product-card, .flight-card .return,
+    .emirates, .emirates .emirates1, .emirates .emirates1 .bir, .emirates .emirates1 .ikki,
+    .emirates2,
+    .payment-option, .payment-option .pay, .pay-part,
+    .login, .login .login1, .login .login2, .login .login3, .login .login3 .bir,
+    .frame .frame2 .economy, .frame2 .details, .frame .frame2 .details,
+    .frame2 .details div, .frame2 .your, .frame2 .total,
+    footer, footer .box5, footer .box5 .div, footer .box5 .div .h6,
+    footer .box5 .img, footer .box5 .img img, footer .box6, footer .box6 .div1 {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .frame2 .chiziq,
+    .login .login1 input,
+    .login .login1 button,
+    .login .login3 .ikki {
+        width: 100% !important;
+    }
+
+    /* ---------- header ---------- */
+    header {
+        padding: 12px 15px;
+        justify-content: space-between;
+    }
+
+    header nav {
+        width: 100%;
+        gap: 10px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header nav .div1,
+    header nav .div2 {
+        width: auto !important;
+        height: auto !important;
+    }
+
+    header nav .div1 .b {
+        display: none;
+    }
+
+    header nav .div2 {
+        gap: 12px;
+    }
+
+    /* ---------- main-1 ---------- */
+    .main-1 {
+        width: 100% !important;
+        height: auto !important;
+        padding: 0 15px;
+        margin-top: 25px;
+    }
+
+    /* ---------- frame (ikki ustun -> ostma-ost) ---------- */
+    .frame {
+        padding: 0 15px;
+        margin-top: 15px;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .frame1 {
+        gap: 25px;
+    }
+
+    /* ---------- flight-card ---------- */
+    .frame1 .flight-card {
+        padding: 18px 15px;
+        gap: 15px;
+    }
+
+    .frame1 .flight-card .product-card,
+    .flight-card .return {
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .frame1 .flight-card .product-card div span {
+        font-size: 26px;
+    }
+
+    .frame1 .flight-card .product-card div p {
+        font-size: 20px;
+    }
+
+    .flight-card .return div span {
+        font-size: 16px;
+    }
+
+    .emirates {
+        gap: 15px;
+    }
+
+    .emirates .emirates1 {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .emirates .emirates1 .bir {
+        justify-content: flex-start;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .emirates .emirates1 .bir .img1 {
+        flex-shrink: 0;
+    }
+
+    .emirates .emirates1 .bir .text {
+        width: auto !important;
+        height: auto !important;
+    }
+
+    .emirates .emirates1 .bir .text p {
+        font-size: 20px;
+    }
+
+    .emirates .emirates1 .ikki {
+        justify-content: flex-start;
+        gap: 20px;
+    }
+
+    .emirates .emirates1 .ikki .ciziq {
+        flex-shrink: 0;
+    }
+
+    .emirates2 {
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .emirates2 div small {
+        font-size: 16px;
+    }
+
+    .emirates2 div span {
+        font-size: 20px;
+    }
+
+    /* ---------- payment-option ---------- */
+    .payment-option {
+        padding: 12px;
+        gap: 8px;
+    }
+
+    .payment-option .pay {
+        min-height: 70px;
+        padding: 12px;
+        gap: 12px;
+    }
+
+    .payment-option .pay .h5,
+    .pay-part .h3 {
+        width: auto !important;
+        height: auto !important;
+        flex: 1;
+        min-width: 0;
+        gap: 8px;
+    }
+
+    .payment-option .pay .input,
+    .pay-part .input {
+        flex-shrink: 0;
+    }
+
+    .pay-part {
+        padding: 10px;
+        gap: 12px;
+    }
+
+    .pay-part .h3 h3 {
+        font-size: 20px;
+    }
+
+    /* ---------- login ---------- */
+    .login {
+        padding: 18px 15px;
+        gap: 25px;
+    }
+
+    .login .login1 {
+        gap: 12px;
+    }
+
+    .login .login1 h4 {
+        font-size: 26px;
+    }
+
+    .login .login1 input {
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .login .login2 {
+        gap: 10px;
+    }
+
+    .login .login2 .chiziq {
+        width: auto !important;
+        flex: 1;
+        min-width: 0;
+    }
+
+    .login .login3 {
+        gap: 12px;
+    }
+
+    .login .login3 .bir {
+        gap: 10px;
+    }
+
+    .login .login3 .bir div {
+        width: auto !important;
+        flex: 1;
+        min-width: 0;
+        font-size: 22px;
+    }
+
+    .login .login3 .ikki {
+        font-size: 18px;
+    }
+
+    /* ---------- frame2 (buyurtma xulosasi) ---------- */
+    .frame .frame2 {
+        padding: 18px 15px;
+        gap: 18px;
+    }
+
+    .frame .frame2 .economy {
+        gap: 15px;
+    }
+
+    .frame .frame2 .economy .img {
+        width: 100px !important;
+        height: 100px !important;
+        flex-shrink: 0;
+    }
+
+    .frame .frame2 .economy .img img {
+        width: 100px !important;
+        height: 100px !important;
+    }
+
+    .frame .frame2 .economy .teks {
+        width: auto !important;
+        height: auto !important;
+        flex: 1;
+        min-width: 0;
+        padding: 0;
+        gap: 8px;
+    }
+
+    .frame2 .details {
+        gap: 12px;
+    }
+
+    .frame2 .details .p p {
+        font-size: 20px;
+    }
+
+    .frame2 .details div p,
+    .frame2 .details div span,
+    .frame2 .total p,
+    .frame2 .total span {
+        font-size: 16px;
+    }
+
+    /* ---------- footer ---------- */
+    footer {
+        margin-top: 120px;
+        padding: 0 15px 30px;
+    }
+
+    footer .box5 {
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+        margin: -60px 0 0 0;
+        transform: none !important;
+    }
+
+    footer .box5 .div {
+        gap: 18px;
+    }
+
+    footer .box5 .div .h6 {
+        font-size: 34px;
+    }
+
+    footer .box5 .button {
+        display: flex;
+        gap: 10px;
+    }
+
+    footer .box5 .button input {
+        width: auto !important;
+        flex: 1;
+        min-width: 0;
+    }
+
+    footer .box5 .button button {
+        width: 90px !important;
+    }
+
+    footer .box5 .img img {
+        height: 200px !important;
+        object-fit: cover;
+        border-radius: 12px;
+    }
+
+    footer .box6 {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 25px;
+        margin: 30px 0 0 0;
+        transform: none !important;
+    }
+
+    footer .box6 .div1 {
+        width: 45% !important;
+    }
+}
+
+/* ===== Juda kichik telefonlar ===== */
+@media (max-width: 480px) {
+    .login .login3 .bir div { font-size: 18px; }
+    .frame1 .flight-card .product-card div span { font-size: 22px; }
+}
