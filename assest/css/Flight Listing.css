@@ -583,3 +583,272 @@ footer .box6 div small {
     display: block;
     color: grey;
 }
+
+
+/* ===== TELEFON VERSIYA (style.css oxiriga qo'shing) ===== */
+@media (max-width: 768px) {
+
+    html, body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    /* ---------- Katta bloklar: kenglik 100%, balandlik avtomatik ---------- */
+    header,
+    form, form fieldset,
+    .filters, .filter, .filter-cards,
+    .filter .price, .filter .price .price-1, .price .price-2, .price .price-2 .bir,
+    .price .price-2 .ikki,
+    .rating, .rating .rating-1, .rating .rating-2,
+    .airlines, .airlines .airlines-1, .airlines .airlines-2, .airlines .airlines-2 div,
+    .filter-sort, .filter-show,
+    .card-filter, .card-filter-left, .card-filter-right,
+    .card-filter-right .bir, .ikkini-orash, .ikki, .uch,
+    footer, footer .box5, footer .box5 .div, footer .box5 .div .h6,
+    footer .box5 .img, footer .box5 .img img, footer .box6, footer .box6 .div1 {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .chiziq,
+    .filter-cards > button {
+        width: 100% !important;
+    }
+
+    .price .price-2 .bir input {
+        width: 100% !important;
+    }
+
+    /* ---------- header ---------- */
+    header {
+        padding: 12px 15px;
+        justify-content: space-between;
+    }
+
+    header nav {
+        width: 100%;
+        gap: 10px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header nav .div1,
+    header nav .div2 {
+        width: auto !important;
+        height: auto !important;
+    }
+
+    header nav .div1 .b {
+        display: none;
+    }
+
+    header nav .div2 {
+        gap: 12px;
+    }
+
+    /* ---------- form (qidiruv) ---------- */
+    form {
+        width: calc(100% - 30px) !important;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: flex-start;
+        gap: 12px;
+        padding: 18px 15px;
+        margin: 20px auto;
+    }
+
+    form fieldset {
+        padding: 4px 15px;
+    }
+
+    form input,
+    form select {
+        width: 100%;
+        height: 32px;
+    }
+
+    form button {
+        width: 100%;
+    }
+
+    /* ---------- filters (ikki ustun -> ostma-ost) ---------- */
+    .filters {
+        padding: 0 15px;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 25px;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .filter {
+        gap: 25px;
+    }
+
+    .filter .price,
+    .rating,
+    .airlines {
+        gap: 12px;
+    }
+
+    .airlines .airlines-2 {
+        gap: 10px;
+    }
+
+    .airlines .airlines-2 div {
+        min-height: 24px;
+    }
+
+    .filter-cards {
+        gap: 15px;
+    }
+
+    /* ---------- filter-sort (gorizontal aylantirish) ---------- */
+    .filter-sort {
+        justify-content: flex-start;
+        gap: 15px;
+        padding: 10px 15px;
+        overflow-x: auto;
+    }
+
+    .filter-sort > * {
+        flex-shrink: 0;
+    }
+
+    .filter-sort-card,
+    .filter-sort-othercard {
+        width: auto !important;
+        min-width: 110px;
+    }
+
+    .filter-sort-card-best {
+        height: 70px !important;
+    }
+
+    /* ---------- filter-show ---------- */
+    .filter-show {
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 10px;
+    }
+
+    /* ---------- card-filter (parvoz kartasi) ---------- */
+    .card-filter {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 15px;
+        gap: 15px;
+    }
+
+    .card-filter-left img {
+        width: 100% !important;
+        height: auto !important;
+        max-height: 180px;
+        object-fit: cover;
+    }
+
+    .card-filter-right {
+        padding-left: 0;
+        gap: 15px;
+    }
+
+    .card-filter-right .bir {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .card-filter-right .bir div p {
+        font-size: 24px;
+        margin-left: 0;
+    }
+
+    .ikkini-orash {
+        gap: 12px;
+    }
+
+    .ikki {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .uch {
+        gap: 10px;
+    }
+
+    .uch .yurak {
+        flex-shrink: 0;
+    }
+
+    .uch .buttom {
+        width: auto !important;
+        flex: 1;
+        min-width: 0;
+    }
+
+    /* ---------- footer ---------- */
+    footer {
+        margin-top: 120px;
+        padding: 0 15px 30px;
+    }
+
+    footer .box5 {
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+        margin: -60px 0 0 0;
+        transform: none !important;
+    }
+
+    footer .box5 .div {
+        gap: 18px;
+    }
+
+    footer .box5 .div .h6 {
+        font-size: 34px;
+    }
+
+    footer .box5 .button {
+        display: flex;
+        gap: 10px;
+    }
+
+    footer .box5 .button input {
+        width: auto !important;
+        flex: 1;
+        min-width: 0;
+    }
+
+    footer .box5 .button button {
+        width: 90px !important;
+    }
+
+    footer .box5 .img img {
+        height: 200px !important;
+        object-fit: cover;
+        border-radius: 12px;
+    }
+
+    footer .box6 {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 25px;
+        margin: 30px 0 0 0;
+        transform: none !important;
+    }
+
+    footer .box6 .div1 {
+        width: 45% !important;
+    }
+}
+
+/* ===== Juda kichik telefonlar ===== */
+@media (max-width: 480px) {
+    .card-filter-right .bir div p { font-size: 20px; }
+    .ikki span { font-size: 16px; }
+}
